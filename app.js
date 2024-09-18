@@ -111,3 +111,12 @@ async function checkCurrentUsername(checkUsername){
         return true       
     }
 }
+
+app.get('/', async function(req, res) {
+    console.log('Sending [GET]: /')
+    res.render('index')
+})
+
+server.listen(3000, () => {
+  console.log('Tivity started on port 3000. http://127.0.0.1:3000/')
+})

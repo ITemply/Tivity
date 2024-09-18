@@ -1,14 +1,14 @@
 {
-    "name": "centri",
+    "name": "tivity",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "dependencies": {
-      "cookie-parser": "^1.4.6",
-      "dotenv": "^16.4.5",
-      "ejs": "^3.1.10",
-      "express": "^4.19.2",
-      "mysql": "^2.18.1",
-      "socket.io": "^4.7.5"
+        "cookie-parser": "^1.4.6",
+        "dotenv": "^16.4.5",
+        "ejs": "^3.1.10",
+        "express": "^4.20.0",
+        "mysql": "^2.18.1",
+        "socket.io": "^4.7.5"
     }
-  }
+}
